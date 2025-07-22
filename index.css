@@ -126,8 +126,74 @@ body {
   text-align: center;
   font-size: 2.5em;
   font-weight: 900;
-  color: #374151;
+  color: #e74c3c;
   line-height: 1.5;
+}
+
+.urgency-text{
+    font-size: 1.3em;
+    color: rgb(133, 100, 4);
+    text-align: center;
+    font-weight: bold;
+    background: rgb(255, 243, 205);
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: rgb(255, 193, 7);
+    border-image: initial;
+    padding: 1em 1em 1.5em 0.5em;
+    margin-top: 1rem;
+    border-radius: 0.3em;
+}
+
+.social-proof-section {
+    margin-top: 3em;
+    padding: 1.25em;
+    background: rgb(248, 249, 250);
+    border-width: 0.0625em;
+    border-style: solid;
+    border-color: rgb(233, 236, 239);
+    border-image: initial;
+    border-radius: 0.3125em;
+}
+
+.social-proof-header {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin-bottom: 1.25em;
+}
+
+.review {
+    margin-bottom: 0.9375em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.125em 0.25em;
+    background: white;
+    padding: 0.9375em;
+    border-left: 0.25em solid rgb(40, 167, 69);
+    border-radius: 0.1875em;
+}
+.review-stars {
+    color: rgb(255, 193, 7);
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+.review-text {
+    font-style: italic;
+    color: rgb(85, 85, 85);
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+}
+
+.review-author {
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-size: 0.9em;
+}
+
+.review-location {
+    color: rgb(102, 102, 102);
+    font-size: 0.85em;
 }
 
 .arrow-section {
@@ -593,7 +659,7 @@ body {
   }
 
   .div10 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 0.6em 0.1em;
   }
   .div12 {
@@ -610,7 +676,7 @@ body {
   }
 
   .div16 {
-    font-size: 2.2em;
+    font-size: 2em;
     padding: 0.7em;
   }
 
